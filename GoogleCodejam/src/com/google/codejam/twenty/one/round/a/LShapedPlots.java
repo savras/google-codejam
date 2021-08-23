@@ -7,7 +7,7 @@ import java.lang.Math;
 
 public class LShapedPlots {
     public void solve() throws FileNotFoundException {
-        URL path = KGoodness.class.getResource("LShapedPlots.txt");
+        URL path = LShapedPlots.class.getResource("LShapedPlots.txt");
         File text = new File(Objects.requireNonNull(path).getFile());
         Scanner in = new Scanner(text);
 

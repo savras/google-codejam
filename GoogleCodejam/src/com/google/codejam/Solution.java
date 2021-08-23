@@ -1,12 +1,12 @@
 package com.google.codejam;
 
-import com.google.codejam.twenty.one.round.a.RabbitHouse;
+import com.google.codejam.twenty.one.round.b.IncreasingSubstring;
 
 import java.io.FileNotFoundException;
 
 public class Solution {
     public static void main(String[] args) throws FileNotFoundException {
-        RabbitHouse s = new RabbitHouse();
+        IncreasingSubstring s = new IncreasingSubstring();
         s.solve();
 
         //
